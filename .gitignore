@@ -1,0 +1,91 @@
+_ReSharper*
+[Bb]in
+[Aa]md64
+obj
+objd
+out/
+tmp/
+App_Data
+*.user
+*.sln.cache
+*.userosscache
+*.suo
+TestResults
+[Tt]humbs.db
+buildd.log
+buildd.evt
+buildd.dbb
+buildd.prf
+buildd.trc
+buildd.err
+buildd.rec
+buildd.wrn
+build.log
+build.evt
+build.prf
+build.dbb
+build.trc
+build.err
+build.rec
+build.wrn
+*.log
+*.bak
+OACRTemp/
+build_logs/
+lock
+/public/inc/bldver.*
+/public/inc/sources.ver
+/data
+*.projhash*
+*.slnhash*
+ETWTracing*
+
+# quickbuild.exe
+/target/distrib/*
+/VersionGeneratingLogs/
+QLogs
+QLocal
+QTestLogs
+pingme.txt
+deleted/
+target/
+createmanifest.exe
+createmanifest.pdb
+Logs
+__cacheOutput
+
+# bad tlb/chm generators in nmake tree
+*.tlb
+*.chm
+
+# silverlight
+ClientBin/
+
+# azure
+*.build.csdef
+csx/
+/version
+/__cbcOutput/debug/amd64/private
+
+/TestRun/
+/TestLogs/
+/TestMirror/
+/VersionGeneration/
+
+# vs code
+.vscode/
+
+#Exclude nuget packages folders
+packages
+
+#ignore envkeep.txt
+build/envkeep.txt
+
+# vs 2017
+.vs/
+*.opendb
+*.sdf
+**/Debug/*
+**/Release/*
+**/ipch/*
+x64/
